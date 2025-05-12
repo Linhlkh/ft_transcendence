@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pong42 Login</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="h-screen bg-gradient-to-br from-purple-300 via-pink-400 to-pink-500">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 text-white px-6 py-3 flex justify-between items-center shadow-md relative">
+    <div class="text-lg font-bold">Pong 42</div>
+    <div class="relative">
+      <button id="langBtn" class="bg-gray-700 px-3 py-1 rounded text-sm hover:bg-gray-600 flex items-center gap-1">
+        🌐 Language
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2"
+             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round"
+                d="M19 9l-7 7-7-7" />
+        </svg>
+      </button>
+
+      <!-- Dropdown -->
+      <div id="langMenu" class="absolute right-0 mt-2 w-32 bg-white rounded-md shadow-md hidden z-10">
+        <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">English</a>
+        <a href="#" class="block px-4 py-2 text-gray-800 hover:bg-gray-200">French</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Login Form -->
+  <div class="flex justify-center items-center h-[calc(100vh-64px)]">
+    <div class="w-full max-w-md bg-white/10 backdrop-blur-md p-8 rounded-2xl shadow-2xl">
+      <h1 class="text-3xl font-mono text-white text-center mb-6 drop-shadow-md">Welcome to Pong42</h1>
+      <p class="text-center text-white text-lg font-semibold mb-6">Please log in to play</p>
+
+      <form class="space-y-4">
+        <div>
+          <label class="block text-white mb-1">Username</label>
+          <input type="text" placeholder="Username" class="w-full px-4 py-2 rounded-md bg-white/90 text-black outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div>
+          <label class="block text-white mb-1">Password</label>
+          <input type="password" placeholder="Password" class="w-full px-4 py-2 rounded-md bg-white/90 text-black outline-none focus:ring-2 focus:ring-blue-500">
+        </div>
+        <div class="space-y-2">
+          <button type="submit" class="w-full bg-blue-600 text-white font-semibold py-2 rounded-md hover:bg-blue-700 transition">Login</button>
+          <button type="button" class="w-full bg-gray-600 text-white font-semibold py-2 rounded-md hover:bg-gray-700 transition">Google login</button>
+        </div>
+      </form>
+
+      <p class="text-center text-white mt-6">Don't have an account? 
+        <a href="#" class="text-black font-semibold underline hover:text-white">Sign up</a>
+      </p>
+    </div>
+  </div>
+</body>
+</html>
