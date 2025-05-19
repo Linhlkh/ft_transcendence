@@ -1,0 +1,20 @@
+{
+    "nav_home": "Home",
+    "nav_signup": "Sign-up",
+    "nav_signin": "Login",
+    "nav_language": "Language",
+    "single_player": "Single player",
+    "multiplayer": "Multiplayer",
+    "tournament": "Tournament",
+
+    "create_new_ac": "Create new account:",
+    "username": "Username",
+    "password": "Password",
+    "cf_password": "Confirm password",
+    "register": "Register",
+
+    "login_pong_42": "Login Pong 42",
+    "login": "Login",
+    "login_gg": "Login with Google"
+    
+}

@@ -1,0 +1,19 @@
+{
+    "nav_home": "Accueil",
+    "nav_signup": "S'inscrire",
+    "nav_signin": "Connexion",
+    "nav_language": "Langue",
+    "single_player": "Joueur seul",
+    "multiplayer": "Multijoueur",
+    "tournament": "Tournoi",
+
+    "create_new_ac": "Créer un nouveau compte :",
+    "username": "Nom d'utilisateur",
+    "password": "Mot de passe",
+    "cf_password": "Confirmer le mot de passe",
+    "register": "S'inscrire",
+
+    "login_pong_42": "Connexion à Pong 42",
+    "login": "Connexion",
+    "login_gg": "Se connecter avec Google"
+}
